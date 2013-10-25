@@ -5,8 +5,7 @@ package scala.macros
 import scala.language.experimental.macros
 import shapeless._
 
-trait
-HListable
+trait HListable
 
 object HListable {
   import scala.reflect.macros.Context
